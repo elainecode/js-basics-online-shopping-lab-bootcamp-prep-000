@@ -49,7 +49,9 @@ function viewCart() {
     for(var i = 0; i < cart.length; i++){
   if(i + 1 === cart.length){
     return str += ' and ${cart[i].itemName} at {cart[i].itemPrice}.'
-  } else
+  } else {
+    str += ` ${cart[0].itemName} at ${cart[0].itemPrice},`;
+  }
 }
 }
 
