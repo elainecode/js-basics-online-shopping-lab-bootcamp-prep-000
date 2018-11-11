@@ -39,7 +39,14 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  var str = ``;
+  for(var i = 0; i < cart.length; i++){
+    if(cart.length === 0){
+      return "";
+    } else {
+      str +=
+    }
+  }
 }
 
 function total() {
