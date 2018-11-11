@@ -42,7 +42,7 @@ function viewCart() {
   var str = `In your cart, you have`;
   for(var i = 0; i < cart.length; i++){
     if(cart.length === 0){
-      return "";
+      return `Your shopping cart is empty.`;
     } else {
       str +=
     }
