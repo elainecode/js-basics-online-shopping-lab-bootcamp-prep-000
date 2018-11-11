@@ -40,13 +40,15 @@ function addToCart(item) {
 
 function viewCart() {
   var str = `In your cart, you have`;
-  for(var i = 0; i < cart.length; i++){
+
     if(cart.length === 0){
       return `Your shopping cart is empty.`;
     } else if (cart.length === 2) {
-      str +=
+      return 
     }
-  }
+    
+      for(var i = 0; i < cart.length; i++){
+  
 }
 
 function total() {
