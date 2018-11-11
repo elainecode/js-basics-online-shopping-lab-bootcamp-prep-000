@@ -1,7 +1,7 @@
 
 /*1. The `addToCart()` function accepts one argument, the name of an item.
 function addToCart(name){
-  var obj = {name
+  var obj = {itemName: name, itemPrice: 0 }
 }
     + Use that passed-in string to create a new object representing the item. The object should consist of two key-value pairs : `{ itemName: name of the item, itemPrice: price of the item, }`. As more items are added, the `cart` should start to look something like this: `[ {  itemName:"bananas", itemPrice: 17 }, { itemName:"pancake batter",itemPrice: 5 }, { itemName:"eggs", itemPrice: 49 }]`.
     + The price of each item should be a randomly-generated integer between 1 and 100.
