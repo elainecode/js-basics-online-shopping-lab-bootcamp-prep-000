@@ -33,7 +33,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  var obj = {itemName: item, itemPrice: Math.floor(Math.random() * 50)};
+  var obj = {itemName: item, itemPrice: Math.floor(Math.random() * 100)};
   cart.push(obj);
   return `${item} has been added to your cart.`;
 }
