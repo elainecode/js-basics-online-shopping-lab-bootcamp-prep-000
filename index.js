@@ -39,7 +39,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var str = ``;
+  var str = `In your cart, you have`;
   for(var i = 0; i < cart.length; i++){
     if(cart.length === 0){
       return "";
