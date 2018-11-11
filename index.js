@@ -48,8 +48,8 @@ function viewCart() {
     }
     for(var i = 0; i < cart.length; i++){
   if(i + 1 === cart.length){
-    return str += ''
-  }
+    return str += ' and ${cart[i].itemName} at {cart[i].itemPrice}.'
+  } else
 }
 }
 
