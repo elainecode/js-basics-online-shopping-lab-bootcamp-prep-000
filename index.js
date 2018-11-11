@@ -53,6 +53,7 @@ function viewCart() {
     str += ` ${cart[0].itemName} at ${cart[0].itemPrice},`;
   }
 }
+return str;
 }
 
 function total() {
